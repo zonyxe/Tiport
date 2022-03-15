@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(192, 131, 95);
+}
+#topic1
+{
+    border-radius: 1px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#comment1
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#comment2
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/*...................................*/
+.grid-container 
+{
+    display: grid;
+    grid-template-columns: 33% auto 33%;
+    grid-gap: 15px;
+}
+.grid-container > div{
+    border: 5px solid black;
+    border-radius: 25px;
+    font-size: 20px;
+    text-align: center;
+    background-color:rgb(223, 175, 144);
+}
+#header{
+    padding-top: 1%;
+    grid-column: 1 / span 3;
+}
+#left{
+    grid-column: 1 / span 1;
+}
+
+#center{
+    grid-column: 2 / span 1;
+
+}
+#right{
+    grid-column: 3 / span 1;
+}

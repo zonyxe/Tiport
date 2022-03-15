@@ -1,0 +1,18 @@
+body
+{  
+    font-family: 'Quicksand', sans-serif;
+    background-color: #F2C2CB;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+legend
+{
+    border: 3px solid gray;
+    border-radius: 10%;
+    background-color: #dd9da9;
+}
+fieldset
+{
+    background-color: #e094a1;
+}

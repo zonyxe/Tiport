@@ -1,0 +1,342 @@
+body
+{  
+    font-family: 'Quicksand', sans-serif;
+    background-image: linear-gradient(#F2C2CB, #F2C9BB);
+}
+
+/*NavBar*/
+#test {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9896D9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+li a 
+{
+    font-weight: bold;
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#ti
+{
+    font-weight: bold;
+      float: right;
+      color: rgb(240, 240, 240);
+    padding-right: 16px;
+    text-align: center;
+    text-decoration: none;
+
+}
+  
+li a:hover 
+{
+    background-color: #7c7baf;
+    bottom: 10px;
+}
+
+/*NavBar*/
+.grid-container 
+{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 15px;
+}
+.grid-container > div{
+    
+    border: 5px solid #7c7baf;
+    font-size: 20px;
+    background-color:#f1d2d7;
+    text-align: center;
+}
+#resu 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* border-radius: 25%; */
+    width: 700px;
+    grid-column: 1 / span 3;
+}
+#Topic
+{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15%;
+    grid-column: 2 / span 1;
+}
+.Assign 
+{
+    grid-column: 1 / span 3;
+    margin-top: 2%;
+    background-color: #9896D9;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap: 15px;
+}
+.Assign  > div{
+    /* border: 2px solid black;
+    font-size: 20px;
+    background-color:rgb(204, 148, 110); */
+    text-align: center;
+}
+#work1
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    margin-top: 2%;
+    width: 39%;
+    box-shadow: 5px 5px rgb(182, 143, 143);
+    grid-column: 1 / span 3;
+}
+#work2
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    margin-top: 2%;
+    width: 32%;
+    box-shadow: 5px 5px rgb(182, 143, 143);
+    grid-column: 2 / span 1;
+}
+#work3
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    margin-top: 2%;
+    width: 40%;
+    box-shadow: 5px 5px rgb(182, 143, 143);
+    grid-column: 3 / span 1;
+}
+#work4
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    margin-top: 2%;
+    width: 40%;
+    box-shadow: 5px 5px rgb(182, 143, 143);
+    grid-column: 1 / span 1;
+}
+#work5
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    margin-top: 2%;
+    width: 34%;
+    margin-bottom: 1%;
+    box-shadow: 5px 5px rgb(182, 143, 143);
+    grid-column: 2 / span 1;
+}
+
+@media only screen and (max-width: 1000px)
+{   
+.grid-container 
+{
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-gap: 15px;
+}
+#resu 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    /* border-radius: 5%; */
+    width: 70%;
+    grid-column: 1 / span 2;
+}
+div ul
+{
+    margin: auto;
+}
+#Topic
+{
+    
+    text-align: center;
+    margin-top: 5%;
+    grid-column: 1 / span 2;
+}
+.Assign 
+{
+    grid-column: 1 / span 2;
+    margin-top: 2%;
+    background-color: #9896D9;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 15px;
+}
+.Assign  > div{
+    /* border: 2px solid black;
+    font-size: 20px;
+    background-color:rgb(204, 148, 110); */
+    text-align: center;
+}
+#work1
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    margin-top: 2%;
+    width: 39%;
+    grid-column: 1 / span 1;
+}
+#work2
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    margin-top: 2%;
+    width: 32%;
+    grid-column: 2 / span 1;
+}
+#work3
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    margin-top: 2%;
+    width: 40%;
+    grid-column: 1 / span 1;
+}
+#work4
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    margin-top: 2%;
+    width: 40%;
+    grid-column: 2 / span 1;
+}
+#work5
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    margin-top: 2%;
+    width: 34%;
+    margin-bottom: 1%;
+    grid-column: 1 / span 1;
+}
+}
+@media only screen and (max-width: 500px)
+{   
+.grid-container 
+{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 15px;
+}
+#resu 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    /* border-radius: 25%; */
+    width: 450px;
+    grid-column: 1 / span 1;
+}
+div ul
+{
+    margin: auto;
+}
+#Topic
+{
+    
+    text-align: center;
+    margin-top: 10%;
+    grid-column: 1 / span 1;
+}
+.Assign 
+{
+    grid-column: 1 / span 1;
+    margin-top: 2%;
+    background-color: #9896D9;
+    display: grid;
+    grid-template-columns: auto  ;
+    grid-gap: 15px;
+}
+.Assign  > div{
+    /* border: 2px solid black;
+    font-size: 20px;
+    background-color:rgb(204, 148, 110); */
+    text-align: center;
+}
+#work1
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    margin-top: 2%;
+    width: 39%;
+    grid-column: 1 / span 1;
+}
+#work2
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    border-radius: 5%;
+    width: 32%;
+    grid-column: 1 / span 1;
+}
+#work3
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    margin-top: 2%;
+    width: 40%;
+    grid-column: 1 / span 1;
+}
+#work4
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    margin-top: 2%;
+    width: 40%;
+    grid-column: 1 / span 1;
+}
+#work5
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    margin-top: 2%;
+    width: 34%;
+    margin-bottom: 1%;
+    grid-column: 1 / span 1;
+}
+}
+
